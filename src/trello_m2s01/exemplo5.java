@@ -1,4 +1,4 @@
-package atividades;
+package trello_m2s01;
 
 import java.util.Scanner;
 
