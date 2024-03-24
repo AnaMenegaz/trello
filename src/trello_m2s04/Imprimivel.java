@@ -1,11 +1,13 @@
 package trello_m2s04;
 
+//Aqui estão as definições de classes do exemplo 1
+
 //Interface Imprimivel
 interface Imprimivel {
  void mostrarDados();
 }
 
-//Classe ContaPoupanca implementando Imprimivel
+//Classes ContaPoupanca e ContaCorrente implementando Imprimivel
 class ContaPoupanca implements Imprimivel {
  private String tipoConta;
  private int numeroConta;
@@ -33,7 +35,6 @@ class ContaPoupanca implements Imprimivel {
  }
 }
 
-//Classe ContaCorrente implementando Imprimivel
 class ContaCorrente implements Imprimivel {
  private String tipoConta;
  private int numeroConta;
